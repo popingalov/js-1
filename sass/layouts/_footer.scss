@@ -1,0 +1,111 @@
+.footer__link {
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  color: var(--body-cl);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: var(--hero-font);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.footer .section {
+  display: flex;
+
+  @media screen and (max-width: 1199.99px) {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.footer-soc {
+  @media screen and (min-width: 1199.99px) {
+    margin-right: 93px;
+  }
+  @media screen and (max-width: 1199.99px) {
+    margin-bottom: 60px;
+  }
+}
+
+.footer-soc-list__link:focus,
+.footer-soc-list__link:hover {
+  background-color: var(--a-focus-cl);
+  color: var(--hero-cl);
+}
+.footer-soc-list__item {
+  width: 44px;
+}
+
+.footer-soc-list__item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-form {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+  @media screen and (max-width: 1199.99px) {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer-form__input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding-left: 16px;
+  @media screen and (max-width: 1199.99px) {
+    max-width: 450px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.footer-addres {
+  @media screen and (max-width: 1199.99px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+}
+.footer-adres__link {
+  font-family: var(--hero-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+}
+.footer-adres__link--color {
+  color: var(--background-header);
+}
+.footer--100vh {
+  width: 100%;
+}
+.footer--container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,38 @@
+.logo__studio {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--h-and-li-cl);
+}
+.logo__studio--color {
+  color: var(--hero-cl);
+}
+.logo {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1199.99px) {
+    margin-right: 93px;
+  }
+}
+.logo__web {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--a-focus-cl);
+}
+.footer .logo {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    margin-right: 0px;
+  }
+  padding-bottom: 20px;
+}
+.logo--position {
+  display: flex;
+  padding-bottom: 9px;
+}

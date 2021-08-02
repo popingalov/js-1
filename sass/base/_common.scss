@@ -1,0 +1,89 @@
+body {
+  font-family: var(--hero-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--body-cl);
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /* outline: 1px solid red; */
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  @media screen and (min-width: 1200px) {
+    max-width: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    max-width: 354px;
+  }
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+button {
+  padding: 6px 22px 6px 22px;
+  border: 0px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: var(--hero-font);
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  transition-property: background-color, color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:focus,
+a:hover {
+  color: var(--a-focus-cl);
+}
+.bg {
+  background-color: var(--bg);
+}
+label span {
+  font-size: 12px;
+  line-height: 1.16;
+}
+.current {
+  color: var(--a-focus-cl);
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+.position {
+  overflow: hidden;
+  position: relative;
+}

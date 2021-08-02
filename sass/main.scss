@@ -1,0 +1,28 @@
+@import './utils/variables';
+
+@import './base/common';
+@import './base/card-set';
+@import './base/container';
+
+@import './component/addres';
+@import './component/logo';
+@import './component/button';
+@import './component/title';
+@import './component/soc';
+@import './component/form';
+@import './component/soc-icon';
+@import './component/card-set';
+@import './component/services-card-set';
+@import './component/dignity-svg';
+@import './component/nav';
+
+@import './layouts/section';
+@import './layouts/header';
+@import './layouts/footer';
+@import './layouts/hero-sec';
+@import './layouts/works';
+@import './layouts/dignity';
+@import './layouts/services';
+@import './layouts/modal';
+@import './layouts/clients';
+@import '../sass/layouts/_menu.scss';
